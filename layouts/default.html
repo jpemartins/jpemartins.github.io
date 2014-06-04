@@ -24,7 +24,7 @@
       </div>
     </section>
 
-    <section style="background: url('../images/<%= @item[:title] %>.jpg') no-repeat fixed bottom right / contain transparent; background-size: cover;" class="facade"></section>
+    <section style="background: url('/images/<%= @item[:title].downcase if not @item[:title].nil? %>.jpg') no-repeat fixed bottom right / contain transparent; background-size: cover;" class="facade"></section>
 
     <div id="main">
       <%= yield %>
