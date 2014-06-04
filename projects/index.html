@@ -1,0 +1,120 @@
+<!DOCTYPE HTML>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <title> Joao Martins - Projects</title>
+    <link rel="stylesheet" href="/stylesheet.css">
+    <link href="http://netdna.bootstrapcdn.com/font-awesome/4.0.3/css/font-awesome.css" rel="stylesheet">
+
+    <!-- you don't need to keep this, but it's cool for stats! -->
+    <meta name="generator" content="nanoc 3.6.9">
+  </head>
+  <body class="Projects">
+    <section class="header">
+      <div class="container">
+        <ul class="menu">
+          <li><a href="/">About Me</a></li>
+          <li><a href="/resume">Resume</a></li>
+          <li><a href="/projects">Projects</a></li>
+        </ul>
+
+        <div class="name">
+          <a><b>João </b>Martins</a>
+        </div>
+      </div>
+    </section>
+
+    <section style="background: url('../images/Projects.jpg') no-repeat fixed bottom right / contain transparent; background-size: cover;" class="facade"></section>
+
+    <div id="main">
+      <p>*Here you can find some of the projects that I spend my time on. *</p>
+
+<h2 id="virtualization--operating-systems">Virtualization / Operating Systems</h2>
+
+<h3 class="project">
+<a href="https://github.com/cnplab/clickos"><code>ClickOS</code></a>
+<a href="https://github.com/cnplab/clickos" class="github-button" data-icon="octicon-star" data-count-href="/cnplab/clickos/stargazers" data-count-api="/repos/cnplab/clickos#stargazers_count">Star</a>
+
+<a href="https://github.com/cnplab/clickos"><code>    MiniOS</code></a>
+<a href="https://github.com/cnplab/clickos" class="github-button" data-icon="octicon-star" data-count-href="/cnplab/clickos/stargazers" data-count-api="/repos/cnplab/clickos#stargazers_count">Star</a>
+
+</h3>
+
+<p>A minimalistic operating system to do packet processing using
+Click Modular Router. It is built on top of MiniOS and focused on specialization of the VM to have blazzing fast network functions that can be deployed in todays clouds. </p>
+<p><b><u>It is now distributed with the oficial Click sources as a MiniOS driver!</u></b></p>
+
+<h3 class="project">
+<a href="https://github.com/cnplab/xennet"><code>xennet</code></a>
+</h3>
+
+<p>Modifications I did to Xen netback/netfront for Linux/MiniOS/FreeBSD
+in order to get 10 Gbit/s throughtput for almost all packet sizes.</p>
+
+<h3 class="project">
+<a href="https://github.com/cnplab/cosmos"><code>cosmos</code></a>
+</h3>
+
+<p>Toolstack built from scratch to create/pause/shutdown ClickOS guests. A really
+small library (~500 LoC) called <code>xcl</code> was built to easily manage MiniOS-based guests. It uses the underlying low-level userspace Xen libraries (<code>libxc</code> and <code>xenstore</code>) to interact with hypervisor and Domain-0 services.</p>
+
+<h2 id="web--audio-codecs">Web / Audio Codecs</h2>
+
+<h3 class="project">
+<a href="http://jpemartins.github.io/speex.js/"><code>speex.js</code></a>
+<a href="https://github.com/jpemartins/speex.js" class="github-button" data-icon="octicon-star" data-count-href="/jpemartins/speex.js/stargazers" data-count-api="/repos/jpemartins/speex.js#stargazers_count">Star</a>
+<a href="https://github.com/jpemartins/speex.js" class="github-button" data-icon="octicon-fork" data-count-href="/jpemartins/speex.js/forks" data-count-api="/repos/jpemartins/speex.js#forks_count">Fork</a>
+</h3>
+
+<p>Speex codec compiled from C to Javascript. Contains a Ogg demuxer/muxer
+built from scratch, and also Microphone support to encode/decode voice data.</p>
+
+<h3 class="project">
+
+<a href="http://jpemartins.github.io/amr.js/"><code>amr.js</code></a>
+
+<a href="https://github.com/jpemartins/amr.js" class="github-button" data-icon="octicon-star" data-count-href="/jpemartins/amr.js/stargazers" data-count-api="/repos/jpemartins/amr.js#stargazers_count">Star</a>
+</h3>
+
+<p>AMR Narrowband codec compiled from C to Javascript. AMR-NB is the reference 
+codec in a IMS deployment.</p>
+
+<h3 class="project">
+<a href="https://github.com/jpemartins/node-webrtc"><code>node-webrtc</code></a>
+<a href="https://github.com/jpemartins/node-webrtc" class="github-button" data-icon="octicon-star" data-count-href="/jpemartins/node-webrtc/stargazers" data-count-api="/repos/jpemartins/node-webrtc#stargazers_count">Star</a>
+
+</h3>
+
+<p>Node.JS interoperability with Google WebRTC stack.</p>
+
+<h3 class="project"><a href="http://code.ua.pt/projects/g711-js"><code>g711.js</code></a></h3>
+
+<p>G711 is a really simple codec normally supported in every VoIP application.</p>
+
+<h3 class="project"><a href="http://code.ua.pt/projects/rtspeech"><code>rtspeech</code></a></h3>
+
+<p>A demo application that examplifies all codecs I developed: it encodes/decodes a file and does a voice call to a random user, pretty much like chat roulette.</p>
+
+<h2 id="miscellaneous">Miscellaneous</h2>
+
+<h3 class="project">
+<a href="http://jpemartins.github.io/mediacapture.js"><code>mediacapture.js</code></a>
+<a href="https://github.com/jpemartins/mediacapture.js" class="github-button" data-icon="octicon-star" data-count-href="/jpemartins/mediacapture.js/stargazers" data-count-api="/repos/jpemartins/mediacapture.js#stargazers_count">Star</a>
+</h3>
+
+<p>A small polyfill that implements the HTML5 Media Capture API.</p>
+
+<h3 class="project"><a href="https://github.com/jpemartins/usertiming.js"><code>usertiming.js</code></a></h3>
+
+<p>A small polyfill that implements the HTML5 User Timing API.</p>
+
+<h3 class="project"><a href="https://github.com/jpemartins/phonegap-websockets"><code>phonegap-websockets</code></a></h3>
+
+<p>A PhoneGap plugin that implements WebSockets in the browser WebView. </p>
+
+<script async="" defer="" id="github-bjs" src="https://buttons.github.io/buttons.js"></script>
+
+
+    </div>
+  </body>
+</html>

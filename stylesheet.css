@@ -1,0 +1,135 @@
+@font-face {
+  font-family: KlimaBold;
+  src: url("../fonts/klima-bold-web.ttf") format("truetype");
+}
+
+@font-face {
+  font-family: KlimaItalic;
+  src: url("../fonts/klima-regular-italic-web.ttf") format("truetype");
+}
+
+@font-face {
+  font-family: Klima;
+  src: url("../fonts/klima-regular-web.ttf") format("truetype");
+}
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background: #fff;
+  font-family: "Klima", "Helvetica Neue", Helvetica, sans-serif;
+}
+
+h2 {
+  font-family: "KlimaBold";
+  padding: 10px 10px 10px 20px;
+  border-left: 7px solid #6DBCDB;
+  margin: 40px -20px 20px;
+  text-transform: uppercase;
+  font-size: 20px;
+}
+
+.header {
+  padding-top: 75px;
+  padding-bottom: 15px;
+  position: relative;
+}
+
+.container, #main {
+  width: 900px;
+  margin: 0px auto;
+}
+
+.name {
+  font-family: "Klima";
+  font-size: 24px;
+  text-transform: uppercase;
+}
+
+.menu {
+    padding: 0px;
+    margin: 0px;
+    font-family: "Klima";
+    float: right;
+}
+
+  .menu li {
+    display: inline;
+    padding-left: 20px;
+    list-style: none;
+    list-style-type: square;
+    font-size: 16px;
+    margin-left: 0px;
+    line-height: 160%;
+    text-transform: uppercase;
+  }
+
+a {
+  text-decoration: none;
+  color: #444;
+  transition: color 0.25s ease-in 0s;
+}
+
+a > b {
+  font-family: "KlimaBold";
+}
+
+a:link,
+a:visited {
+  color: #404040;
+}
+
+a:hover {
+  color: #DA3537;
+  text-shadow: 2px 2px 2px 2px #333333;
+}
+
+.facade {
+  background-color: #2B2B2B;
+  height: 240px;
+  box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.5) inset;
+  margin-bottom: 50px;
+  position: relative;
+}
+
+.project {
+  height: 20px;
+  padding: 5px;
+}
+
+.project h3 {
+  font-family: monospace;
+}
+
+.project * {
+  display: inline;
+  vertical-align: middle;
+}
+
+.bg-green {
+  background-color: #5D8741; 
+}
+
+.talk-conference {
+  padding:5px;
+}
+  .talk-conference > a {
+    color: #DA3537;
+  }
+
+  .talk-conference > img {
+    width: 180px;
+    height: 80px;
+  }
+
+h3 > a > code {
+  color: rgb(0, 0, 238);
+}
+
+#main {
+  position: relative;
+  padding-bottom: 15px;
+}
