@@ -12,17 +12,28 @@ on backend and frontend.
 
 <br/>
 
-I am an UNIX enthusiast whether in the OS kernel or when making (web) applications.
+I am a UNIX enthusiast whether in the OS kernel or when making (web) applications.
 I tend to prefer DIY approaches whether building software, most of time to learn a bit
 about the system underneath.
 
 <br/>
 
-When I'm not hacking around, I do love my longboard, travelling and enjoying some good
+When I am not hacking around, I do love my longboard, travelling and enjoying some good
 food and beers with friends!
+
+<br/>
 
 Follow me in your social network of choice!
 
+<br/>
+
+<a href="https://github.com/jpemartins"><i class="icon-2x icon-github-sign"></i></a>
+<a href="https://pt.linkedin.com/in/jpemartins/"><i class="icon-2x icon-linkedin-sign"></i></a>
+<a href="https://instagram.com/jpemartins"><i class="icon-2x icon-instagram-sign"></i></a>
+<a href="https://facebook.com/jpemartins"><i class="icon-2x icon-facebook-sign"></i></a>
+<a href="https://twitter.com/jpemartins"><i class="icon-2x icon-twitter-sign"></i></a>
+<a href="https://soundcloud.com/jpemartins"><i class="icon-2x icon-soundcloud-sign"></i></a>
+<a href="https://play.spotify.com/user/jpemartins"><i class="icon-2x icon-spotify-sign"></i></a>
 
 Work Experience
 ---------------
