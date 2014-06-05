@@ -1,16 +1,16 @@
 @font-face {
   font-family: KlimaBold;
-  src: url("../fonts/klima-bold-web.ttf") format("truetype");
+  src: url("/fonts/klima-bold-web.ttf") format("truetype");
 }
 
 @font-face {
   font-family: KlimaItalic;
-  src: url("../fonts/klima-regular-italic-web.ttf") format("truetype");
+  src: url("/fonts/klima-regular-italic-web.ttf") format("truetype");
 }
 
 @font-face {
   font-family: Klima;
-  src: url("../fonts/klima-regular-web.ttf") format("truetype");
+  src: url("/fonts/klima-regular-web.ttf") format("truetype");
 }
 
 * {
@@ -36,11 +36,12 @@ h2 {
 .header {
   padding-top: 75px;
   padding-bottom: 15px;
+  padding-left: 15px;
+  padding-right: 15px;
   position: relative;
 }
 
 .container, #main {
-  width: 900px;
   margin: 0px auto;
 }
 
@@ -132,5 +133,16 @@ h3 > a > code {
 
 #main {
   position: relative;
-  padding-bottom: 15px;
+  padding-bottom: 50px;
+  padding-right: 15px;
+  padding-left: 15px;
 }
+
+/* Desktops and laptops ----------- */
+@media only screen and (min-width : 950px) {
+	/* Styles */
+	.container, #main {
+	  width: 900px;
+	}
+}
+
