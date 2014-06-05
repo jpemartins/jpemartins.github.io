@@ -1,16 +1,16 @@
 @font-face {
   font-family: KlimaBold;
-  src: url("/fonts/klima-bold-web.ttf") format("truetype");
+  src: url("/fonts/klima-bold-web.woff") format("woff");
 }
 
 @font-face {
   font-family: KlimaItalic;
-  src: url("/fonts/klima-regular-italic-web.ttf") format("truetype");
+  src: url("/fonts/klima-regular-italic-web.woff") format("woff");
 }
 
 @font-face {
   font-family: Klima;
-  src: url("/fonts/klima-regular-web.ttf") format("truetype");
+  src: url("/fonts/klima-regular-web.woff") format("woff");
 }
 
 * {

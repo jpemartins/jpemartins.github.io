@@ -1,6 +1,6 @@
 @font-face {
   font-family: "Socialicious";
-  src: url("/fonts/socialicious.ttf") format("truetype"), url("/fonts/socialicious.svg#socialicious") format("svg"), url("/fonts/socialicious.woff") format("woff"); */
+  src: url("/fonts/socialicious.woff") format("woff"), url("/fonts/socialicious.ttf") format("truetype"), url("/fonts/socialicious.svg#socialicious") format("svg"), url("/fonts/socialicious.woff") format("woff"); */
   font-weight: normal;
   font-style: normal; }
 
