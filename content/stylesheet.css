@@ -41,6 +41,10 @@ h2 {
   position: relative;
 }
 
+.header .container {
+  padding-bottom: 25px;
+}
+
 .container, #main {
   margin: 0px auto;
 }
@@ -49,6 +53,7 @@ h2 {
   font-family: "Klima";
   font-size: 24px;
   text-transform: uppercase;
+  float: left;
 }
 
 .menu {
@@ -102,14 +107,14 @@ a:hover {
   padding: 5px;
 }
 
-.project h3 {
-  font-family: monospace;
-}
+	.project h3 {
+	  font-family: monospace;
+	}
 
-.project * {
-  display: inline;
-  vertical-align: middle;
-}
+	.project * {
+	  display: inline;
+	  vertical-align: middle;
+	}
 
 .bg-green {
   background-color: #5D8741; 
@@ -118,17 +123,21 @@ a:hover {
 .talk-conference {
   padding:5px;
 }
-  .talk-conference > a {
-    color: #DA3537;
-  }
+	.talk-conference > a {
+		color: #DA3537;
+	}
 
-  .talk-conference > img {
-    width: 180px;
-    height: 80px;
-  }
+	.talk-conference > img {
+	    width: 180px;
+	    height: 80px;
+	}
 
 h3 > a > code {
   color: rgb(0, 0, 238);
+}
+
+.github-button {
+	display: none;
 }
 
 #main {
@@ -138,9 +147,39 @@ h3 > a > code {
   padding-left: 15px;
 }
 
+/* Smartphones (portrait) ----------- */
+@media only screen and (max-width : 400px) {
+  h2 {
+    margin-left: -15px;
+  }
+  .header {
+    padding-top: 15px;
+  }
+
+    .header .container {
+      padding-bottom: 10px;
+    }
+
+  .menu {
+    float: none;
+    padding-top: 10px;
+    display: block;
+  }
+  
+    .menu li {
+      font-size: 18px !important;
+    }
+
+  .name {
+    padding-top: 25px;
+    text-align: center;
+    float: none;
+  }
+}
+
+
 /* Desktops and laptops ----------- */
 @media only screen and (min-width : 950px) {
-	/* Styles */
 	.container, #main {
 	  width: 900px;
 	}
