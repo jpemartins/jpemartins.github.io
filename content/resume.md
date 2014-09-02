@@ -14,13 +14,22 @@ ClickOS / Network Function Virtualization ​​(Aug '12 - CURRENT)
 <p class="job-description">
 Working on minimalistic and specialised virtual machines (5MB) to be used as network middleboxes, called ClickOS:
 <ul>
+
+<li>Built ClickOS that runs in today's clouds having fast boot times and unmatched network performance.</li>
+
 <li>Changing the underlying backend and frontend drivers in Xen to improved packet I/O in virtual machines by a factor of 10, and beyond 10 Gb/s.</li>
 
-<li>Improved boot times down to 30 miliseconds, by developing a toolstack ground up for Xen.</li>
+<li>Improved boot times down to 30 miliseconds, by developing a toolstack ground up for Xen, on top of the low-level userspace libraries.</li>
+
+<li>Optimized the toolstack to quickly run thousands of ClickOS guests in a single server.</li>
 
 <li>Heavily benchmarked and analysed the Xen network I/O from the guest down to the host.</li>
 
-<li>Presented in top research conferences and also gave  a series of developer-oriented talks from Xen Summit, FOSDEM and USENIX NSDI earlier this year. The source code was recently made opensource as part of this project (https://cnp.neclab.eu).</li>
+<li>Contributed to <a href="https://code.google.com/p/netmap/source/list?name=next"><b>netmap</b></a> framework by giving support for Xen/IOMMU in their drivers.</li>
+
+<li>Contributed to <a href="https://github.com/kohler/click/pull/118"><b>Click</b></a> modular router framework by adding a MiniOS driver.</li>
+
+<li>Presented in top conferences (developer-oriented and research) from Xen Summit '13, FOSDEM '14 and USENIX NSDI '14 earlier this year. The source code was recently made opensource as part of this project (https://cnp.neclab.eu).</li>
 </ul>
 </p>
 
@@ -34,15 +43,17 @@ HTML5 Webphone, Apollo​​(Set '11 - Jul '12)
  
 <p class="job-description">
 <ul>
-<li>Developed a rich voice-based communications solution which doesn’t resort to any fall back mechanisms (e.g. Flash, Java) and enables users to communicate directly between peers using HTML5 technologies (e.g. WebRTC or WebSockets media streaming) and through a specially designed transport gateway within an IMS network.</li>
+<li>Developed a rich voice-based communications solution which doesn’t resort to any fall back mechanisms (e.g. Flash, Java) and enables users to communicate directly between peers using HTML5 technologies (e.g. WebRTC, WebSockets) and through a specially designed transport gateway within an IMS network.</li>
 
-<li>Both desktop and mobile were the target platforms of a yet to be released product called Whisper.</li>
+<li>Ported Speex, G711 and AMR audio codecs to the the browser to achieve better security and improved communication between peers.</li>
+
+<li>Deployed and programmed WASPMote sensors to support an intelligent farm, called Apollo.</li>
 </ul>
 </p>
 
 ## Computer Skills
 
-Frameworks/Packages: netmap, Click, Xen deployment, MiniOS, Xen driver development, Linux kernel development
+Frameworks/Packages: netmap, Click, Xen deployment, MiniOS, Xen driver development, FreeBSD/Linux kernel development
 
 Languages: C, C++, Python, Javascript, Java
 
@@ -52,7 +63,7 @@ Extras: HTML5, CSS, JS frameworks
 
 Web/Audio codecs:
  
-* Speex.js (Javascript) (over 50+ stars)
+* Speex.js (Javascript) (over 60+ stars)
 * AMR.js (Javascript)
 * Google WebRTC binding for Node.JS (C++)
 
@@ -125,3 +136,29 @@ Roberto Bifulco, Thomas Dietz, Felipe Huici, Mohamed Ahmed, **Joao Martins**, Sa
 EWSDN 2013 Workshop
 
 <br/>
+
+## Education
+
+<p class="job-name">
+<h3>University of Aveiro <img src="../images/pt.png" /></h3>
+MSc in Computer Engineering and Telematics (2009 - 2011)
+</p>
+<br/>
+
+<p class="job-description">
+Thesis in Testbed Management Systems (19/20)
+<br/>
+<br/>
+<p><b>Published:</b> “Experimentation made easy with the AMazING panel”, in the Proceedings for MOBICOM 2012, WiN- TECH Workshop, Istambul Turkey. Authors: Joao Martins, Joao P. Barraca, Diogo Gomes, Rui L. Aguiar</p>
+
+<p><b>Extra-Curricular:</b> Financial Officer in the Computer Engineering and Telematics Student branch</p>
+</p>
+
+<br/>
+
+<p class="job-name">
+<h3>University of Aveiro <img src="../images/pt.png" /></h3>
+BSc in Computer Engineering and Telematics (2005 - 2009)
+</p>
+<br/>
+

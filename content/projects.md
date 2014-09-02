@@ -14,9 +14,9 @@ Virtualization / Operating Systems
 <a href="https://github.com/cnplab/clickos" class="github-button" data-icon="octicon-star"
   data-count-href="/cnplab/clickos/stargazers" data-count-api="/repos/cnplab/clickos#stargazers_count">Star</a>
 
-<a href="https://github.com/cnplab/clickos"><code>    MiniOS</code></a>
-<a href="https://github.com/cnplab/clickos" class="github-button" data-icon="octicon-star"
-  data-count-href="/cnplab/clickos/stargazers" data-count-api="/repos/cnplab/clickos#stargazers_count">Star</a>
+<a href="https://github.com/cnplab/mini-os"><code>    MiniOS</code></a>
+<a href="https://github.com/cnplab/mini-os" class="github-button" data-icon="octicon-star"
+  data-count-href="/cnplab/mini-os/stargazers" data-count-api="/repos/cnplab/mini-os#stargazers_count">Star</a>
 
 </h3>
 
