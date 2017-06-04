@@ -1,13 +1,19 @@
 ---
-title: Resume 
+title: Resume
 ---
 
 ## Work Experience
 
 <p class="job-name">
-<h3>Research Associate at NEC Europe Ltd,
+<h3>Principal Software Engineer at Oracle Corporation</h3>
+Virtualization Team ​​(Jul '15 - CURRENT)
+</p>
+<br/>
+
+<p class="job-name">
+<h3>Research Scientist at NEC Europe Ltd,
 Heidelberg - Germany <img src="../images/de.png" /></h3>
-ClickOS / Network Function Virtualization ​​(Aug '12 - CURRENT)
+ClickOS / Network Function Virtualization ​​(Aug '12 - Jun '15)
 </p>
 <br/>
 
@@ -29,7 +35,7 @@ Working on minimalistic and specialised virtual machines (5MB) to be used as net
 
 <li>Contributed to <a href="https://github.com/kohler/click/pull/118"><b>Click</b></a> modular router framework by adding a MiniOS driver.</li>
 
-<li>Presented in top conferences (developer-oriented and research) from Xen Summit '13, FOSDEM '14 and USENIX NSDI '14 earlier this year. The source code was recently made opensource as part of this project (https://cnp.neclab.eu).</li>
+<li>Presented in top conferences (developer-oriented and research) from Xen Summit '13, FOSDEM '14 and USENIX NSDI '14 earlier this year. The source code was made opensource as part of this project (http://cnp.neclab.eu).</li>
 </ul>
 </p>
 
@@ -40,7 +46,7 @@ Working on minimalistic and specialised virtual machines (5MB) to be used as net
 HTML5 Webphone, Apollo​​(Set '11 - Jul '12)
 </p>
 <br/>
- 
+
 <p class="job-description">
 <ul>
 <li>Developed a rich voice-based communications solution which doesn’t resort to any fall back mechanisms (e.g. Flash, Java) and enables users to communicate directly between peers using HTML5 technologies (e.g. WebRTC, WebSockets) and through a specially designed transport gateway within an IMS network.</li>
@@ -50,30 +56,6 @@ HTML5 Webphone, Apollo​​(Set '11 - Jul '12)
 <li>Deployed and programmed WASPMote sensors to support an intelligent farm, called Apollo.</li>
 </ul>
 </p>
-
-## Computer Skills
-
-Frameworks/Packages: netmap, Click, Xen deployment, MiniOS, Xen driver development, FreeBSD/Linux kernel development
-
-Languages: C, C++, Python, Javascript, Java
-
-Extras: HTML5, CSS, JS frameworks
-
-## Side Projects
-
-Web/Audio codecs:
- 
-* Speex.js (Javascript) (over 60+ stars)
-* AMR.js (Javascript)
-* Google WebRTC binding for Node.JS (C++)
-
-<br/>
-As part of my ClickOS work:
- 
-* ClickOS (C++)
-* Xen optimizations (C)
-* MiniOS (C)
-* Xen toolstack for fast boot times (C/Python)
 
 ## Talks
 
@@ -85,7 +67,7 @@ As part of my ClickOS work:
 	<a href="https://www.usenix.org/conference/nsdi14/technical-sessions/presentation/martins"><i>ClickOS and the Art of Network Function Virtualization</i></a>
 	<br/>
 </p>
- 
+
 <p class="talk-conference">
 	<img src="../images/fosdem14.jpg"/>
 	<br/>
@@ -104,7 +86,34 @@ As part of my ClickOS work:
 </p>
 
 ## Publications
- 
+
+***Rollback Recovery for Middleboxes***
+
+Justine Sherry, Peter Xiang Gao, Soumya Basu, Aurojit Panda, Arvind Krishnamurthy,
+Christian Maciocco, Maziar Manesh, **João Martins**, Sylvia Ratnasamy, Luigi Rizzo, Scott Shenker
+
+ACM SIGCOMM 2015 (Best Student Paper Award)
+
+<br/>
+
+***The Case for the Superfluid Cloud***,
+
+Filipe Manco, **Joao Martins**, Kenichi Yasukata, Jose Mendes, Simon Kuenzer, and Felipe Huici (NEC Europe Ltd.)
+
+USENIX HotCloud 2015
+
+<br/>
+
+***IN-NET: In-Network Processing for the Masses***
+
+Radu Stoenescu, Vladimir Olteanu, Matei Popovici, (University of Bucharest)
+Mohamed Ahmed, **Joao Martins**, Roberto Bifulco, Filipe Manco, Felipe Huici, (NEC Europe Ltd.)
+Georgios Smaragdakis, (MIT CSAIL) Mark Handley, (University College London) Costin Raiciu (University of Bucharest)
+
+ACM/USENIX EuroSys 2015
+
+<br/>
+
 ***ClickOS and the Art of Network Function Virtualization***,
 
 **Joao Martins**, Mohamed Ahmed (NEC Europe Ltd), Costin Raiciu, Vladimir Olteanu (University of Bucharest), Michio Honda, Roberto Bifulco, Felipe Huici (NEC Europe Ltd),
@@ -119,7 +128,7 @@ USENIX NSDI 2014
 
 SIGCOMM HotSDN 2013 Workshop
 
-<br/> 
+<br/>
 
 ***Towards Minimalistic, Virtualized Content Caches with Minicache***,
 

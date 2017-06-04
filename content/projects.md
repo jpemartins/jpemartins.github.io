@@ -4,7 +4,7 @@ created_at: 2014-05-03 18:30:09 +0200
 kind: projects
 ---
 
-*Here you can find some of the projects that I spend my time on.*
+*Here you can find some of the projects that I've been involved in the past*
 
 Virtualization / Operating Systems
 ----------------------------------
